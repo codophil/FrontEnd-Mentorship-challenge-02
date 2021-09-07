@@ -1,0 +1,14 @@
+@import "reset.css";
+
+:root {
+  --lightColor: #FFF;
+  --darkColor: #000;
+  --darkGray: #928C8C;
+  --grayColor: #C2B7B7;
+  --lightBlue: #E5EEF3;
+  --darkBlue: #3498DB;
+}
+
+body {
+  margin: 0;
+}
