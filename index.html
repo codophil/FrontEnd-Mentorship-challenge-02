@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FrontEnd-Mentorship-challenge-02</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="name">
+          <label for="name">FullName</label>
+          <input type="text" name="name" id="name" placeholder="Your Name" />
+        </div>
+        <div class="email">
+          <label for="email">Email Address</label>
+          <input
+            type="text"
+            name="email"
+            id="name"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="birth">
+          <label for="birth">Date of Birth</label>
+          <input type="date" name="birth" id="name" placeholder="DD/MM/YY" />
+        </div>
+        <div class="gender">
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" id="male" />
+          <input type="radio" name="gender" id="female" />
+        </div>
+        <div class="terms">
+          <label for="terms">I accept the terms & conditions</label>
+          <input type="checkbox" name="terms" id="terms" />
+        </div>
+        <div class="sumbit">
+          <input type="button" value="Creat Account" />
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
