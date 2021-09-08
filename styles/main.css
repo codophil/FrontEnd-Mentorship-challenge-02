@@ -8,6 +8,7 @@
   --lightBlue: #e5eef3;
   --darkBlue: #3498db;
   --darkerBlue: #0767a7;
+  --oceanBlue: #012942;
 }
 
 main {
@@ -27,6 +28,12 @@ main {
 #form-section {
   padding: 3rem;
   background-color: var(--lightBlue);
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border-radius: 10px;
+
   border-radius: 2rem;
   width: 30%;
 }
@@ -49,6 +56,7 @@ form {
 
 label {
   padding-bottom: 1rem;
+  color: var(--oceanBlue);
 }
 
 .name input,
@@ -156,7 +164,7 @@ input::placeholder,
 }
 
 .submit-button:enabled {
-    box-shadow: 0 3px var(--darkerBlue);
+  box-shadow: 0 3px var(--darkerBlue);
 }
 
 /* end of form section */
