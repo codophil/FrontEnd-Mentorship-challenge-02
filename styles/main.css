@@ -68,6 +68,12 @@ label {
   width: 100%;
 }
 
+.name input,
+.email input {
+    font-size: 2rem;
+    color: var(--oceanBlue);
+}
+
 .name input:focus,
 .email input:focus,
 .date input:focus {
