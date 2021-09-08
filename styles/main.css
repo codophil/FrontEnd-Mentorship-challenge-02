@@ -33,7 +33,6 @@ main {
   backdrop-filter: blur(5.9px);
   -webkit-backdrop-filter: blur(5.9px);
   border-radius: 10px;
-
   border-radius: 2rem;
   width: 30%;
 }
@@ -69,7 +68,9 @@ label {
   width: 100%;
 }
 
-input:focus {
+.name input:focus,
+.email input:focus,
+.date input:focus {
   outline: none;
   box-shadow: inset 1px 2px 5px -1px var(--darkBlue);
   transition: all 0.2s ease-in-out;
