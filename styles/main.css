@@ -7,6 +7,7 @@
   --grayColor: #c2b7b7;
   --lightBlue: #e5eef3;
   --darkBlue: #3498db;
+  --darkerBlue: #0767a7;
 }
 
 main {
@@ -145,12 +146,17 @@ input::placeholder,
   margin: 1rem;
   border: none;
   border-radius: 1rem;
+  box-shadow: 0 3px var(--darkerBlue);
 }
 
 .submit-button:hover {
   cursor: pointer;
   filter: brightness(90%);
   transform: translateY(1px);
+}
+
+.submit-button:enabled {
+    box-shadow: 0 3px var(--darkerBlue);
 }
 
 /* end of form section */
